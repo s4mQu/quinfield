@@ -1,0 +1,52 @@
+.ag-root-wrapper {
+  border-radius: 0;
+  border: none;
+}
+
+.ag-theme-quartz {
+  /* Header */
+  --ag-header-column-resize-handle-height: 60%;
+  --ag-header-column-resize-handle-width: 2px;
+  --ag-header-column-resize-handle-color: var(--bg-color);
+  --ag-header-height: 25px;
+  --ag-header-background-color: var(--dark-color);
+  --ag-header-foreground-color: var(--bg-color);
+  /* General */
+  --ag-background-color: var(--bg-color);
+  --ag-font-family: var(--main-font);
+  --ag-data-color: var(--dark-color);
+  --ag-row-hover-color: var(--selected-color);
+  --ag-border-radius: 0;
+  /* Checkboxes */
+  --ag-active-color: var(--dark-color);
+  /* Grid */
+  --ag-grid-size: 5px;
+  --ag-border-color: var(--dark-color);
+  --ag-cell-horizontal-border: solid;
+}
+.ag-cell {
+  border-bottom: solid 3px var(--dark-color);
+  border-left: solid 3px var(--dark-color);
+}
+.ag-column-first {
+  border-left: solid 3px var(--dark-color);
+}
+.ag-column-last {
+  border-right: solid 3px var(--dark-color);
+}
+.ag-body {
+  margin-top: 6px;
+  border-top: solid 3px var(--dark-color);
+}
+/* .ag-cell-focus {
+  background-color: var(--secondary-color);
+} */
+.ag-cell-focus:focus {
+  background-color: var(--secondary-color);
+  /* border: solid 3px var(--dark-color); */
+  outline: none;
+}
+.ag-center-cols-container {
+  border-right: solid 3px var(--dark-color);
+  /* border-left: solid 3px var(--dark-color); */
+}
